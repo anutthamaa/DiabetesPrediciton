@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+seaborn
+matplotlib
+scikit-learn
+pytest-warnings
+statsmodels
+dill
+flask
+#-e .
