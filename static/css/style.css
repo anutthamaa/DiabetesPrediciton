@@ -34,15 +34,10 @@ body {
     display: inline-block;
     width: 190px;
     text-align:left;
-  }
-
-  label {
     padding: 12px 12px 12px 500px;
-    display: inline-block;
   }
 
   
-
   input[type=submit]:hover {
     background-color: #45a049;
   }
@@ -58,7 +53,7 @@ body {
     float: center;
   }
 
-  input[type=text], select, textarea {
+  input[type=number], select, textarea {
     width: 20%;
     padding: 5px;
     border: 1px solid #ccc;

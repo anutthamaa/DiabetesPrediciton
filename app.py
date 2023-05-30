@@ -37,7 +37,7 @@ def predict_diabetes():
         if res[0] == 0:
             results = 'Prediction : Patient profile looks normal'
         else:
-            results = 'Patient has diabetes/ likely to get diabetes'
+            results = 'Prediction : Patient has diabetes/ likely to get diabetes'
         return render_template('home.html',results = results)
 
 
